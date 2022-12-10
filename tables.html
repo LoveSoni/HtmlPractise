@@ -7,7 +7,7 @@
     <title>Table</title>
     <style>
         table{
-            width: 100%;border-collapse: collapse;
+            border-collapse: collapse;
             color: white;
         }
         td, th {
@@ -15,15 +15,15 @@
             text-align: center;
             padding: 10px;
         }
-        tr:nth-child(even){
+        tr{
             background-color: #313131;
         }
     </style>
 </head>
 <body>
-   <table>
+   <table style="width: 100%">
     <tr>
-        <th>Country</th>
+        <th colspan="2">Country</th>
         <th>CountryCode</th>
         <th>Email</th>
     </tr>
