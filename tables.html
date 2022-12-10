@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <style>
+        table{
+            width: 100%;border-collapse: collapse;
+            color: white;
+        }
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        tr:nth-child(even){
+            background-color: #313131;
+        }
+    </style>
 </head>
 <body>
    <table>
@@ -12,6 +26,26 @@
         <th>Country</th>
         <th>CountryCode</th>
         <th>Email</th>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>IN</td>
+        <td>india@google.com</td>
+    </tr>
+    <tr>
+        <td>United States of America</td>
+        <td>USA</td>
+        <td>USA@google.com</td>
+    </tr>
+    <tr>
+        <td>Japan</td>
+        <td>JP</td>
+        <td>japan@google.com</td>
+    </tr>
+    <tr>
+        <td>China</td>
+        <td>CN</td>
+        <td>cn@google.com</td>
     </tr>
    </table>
 </body>
